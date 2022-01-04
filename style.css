@@ -3,8 +3,9 @@ body {
   margin: 0;
 }
 
-section {
+.flexible-area {
   display: flex;
+  margin-bottom: 50px;
 }
 
 .half-width {
@@ -26,4 +27,23 @@ section {
 .top-section {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+.experience-item {
+  width: 40%;
+  box-shadow: 10px 10px 30px gray;
+  margin-left: 5%;
+  margin-right: 5%;
+  padding: 30px;
+}
+
+#full-stack-experience {
+  border-left: 7px solid;
+  border-image: linear-gradient(blue, cyan);
+  border-image-slice: 1;
+}
+
+#baby-stack-experience {
+  border-left: 7px solid;
+  border-image: linear-gradient(red, tomato);
+  border-image-slice: 1;
 }
